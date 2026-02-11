@@ -66,6 +66,8 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 }
 .k{ color:var(--muted); font-weight:600; }
 .v{
+  max-width: 100%;
+  white-space: normal;
   color:var(--fg);
   line-height:1.55;
   overflow-wrap:anywhere; /* avoid ultra-narrow vertical look */
@@ -128,7 +130,7 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
     </div>
 
     <div class="note">
-      欢迎对 <b>统计建模、生物统计、空间组学</b> 以及 <b>医疗器械/可穿戴算法落地</b> 感兴趣的同学联系我：
+      课题组氛围融洽，有持续产出，包含多位博士和硕士，欢迎对 <b>统计建模、生物统计、空间组学</b> 以及 <b>医疗器械/可穿戴算法落地</b> 感兴趣的同学联系。
       <a href="mailto:dongqishi@sztu.edu.cn">dongqishi@sztu.edu.cn</a>。
     </div>
   </div>
@@ -174,7 +176,6 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
       <div class="pubtitle">Efficient Latent-Topic Modeling Unifies Cell-Type Deconvolution and Domain Discovery for Multi-Section Spatial Transcriptomics</div>
       <div class="puba">Dong, Q.†; Huang, Z.†; Wang, X.; Feng, Z.; Liu, W.; Huang, B.*</div>
       <div class="pubv"><b>Manuscript</b>, 2026</div>
-      <div class="pubd">一句话贡献示例：提出统一的潜在主题模型，在多切片场景下同时完成细胞类型解卷积与空间域发现，并提升跨切片一致性。</div>
       <div class="publinks">
         <a href="/assets/papers/FUSION.pdf">PDF</a>
       </div>
@@ -189,7 +190,6 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
       <div class="pubtitle">An Empirical Bayes Algorithm for Variable Selection With Applications in Genetic Fine-Mapping</div>
       <div class="puba">Dong, Q.*; Wang, X.*; Guan, X.; Liang, L.; Ke, X.#; Peng, H.</div>
       <div class="pubv"><b>Stat</b>, 2026</div>
-      <div class="pubd">一句话贡献示例：构建可扩展的经验贝叶斯变量选择框架，用于高维遗传 fine-mapping 并给出可解释的后验不确定性。</div>
       <div class="publinks">
         <a href="/assets/papers/EmpBVS_clean.pdf">PDF</a>
       </div>
@@ -206,7 +206,6 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
       <div class="pubtitle">Robust Spatial Cell-Type Deconvolution with Qualitative Reference for Spatial Transcriptomics</div>
       <div class="puba">Dong, Q.*; Yang, Y.*; Luo, Z.; Shen, H.; Shi, X.#; Liu, J.#</div>
       <div class="pubv"><b>Small Methods</b> 9(5), 2401145, 2025</div>
-      <div class="pubd">一句话贡献示例：使用定性参考与稳健推断，在缺少高质量 scRNA 参考时仍能进行可靠的空间解卷积与域识别。</div>
       <div class="publinks">
         <a href="#">Paper</a>
       </div>
@@ -223,7 +222,6 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
       <div class="pubtitle">DAMix: Exploiting Deep Autoregressive Model Zoo for Improving Lossless Compression Generalization</div>
       <div class="puba">Dong, Q.; Zhou, F.; Kang, N.; Xie, C.; Zhang, S.; Li, J.; Peng, H.; Li, Z.*</div>
       <div class="pubv"><b>AAAI</b>, 2023</div>
-      <div class="pubd">一句话贡献示例：利用模型集与混合策略提升无损压缩在分布外场景下的泛化性能。</div>
       <div class="publinks">
         <a href="#">Paper</a>
       </div>
@@ -240,7 +238,6 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
       <div class="pubtitle">ZooD: Exploiting Model Zoo for Out-of-Distribution Generalization</div>
       <div class="puba">Dong, Q.; Muhammad, A.; Zhou, F.; Xie, C.; Hu, T.; Yang, Y.; Bae, S.-H.; Li, Z.*</div>
       <div class="pubv"><b>NeurIPS</b>, 2022</div>
-      <div class="pubd">一句话贡献示例：通过“模型动物园”策略提升分布外泛化表现，并提供可迁移的训练范式。</div>
       <div class="publinks">
         <a href="#">Paper</a>
       </div>
@@ -254,7 +251,6 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 <ul>
   <li><b>发明专利申请（已受理）</b>：申请号 <b>202511359756.X</b>，
       “一种联合解卷积域识别与对齐的方法、系统、终端及介质”（发文日：2025-09-23）。
-      <a href="/assets/patents/202511359756X-专利申请受理通知书.pdf">受理通知书 PDF</a>
   </li>
 </ul>
 
