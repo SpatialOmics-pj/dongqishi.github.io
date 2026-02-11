@@ -175,7 +175,6 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
       <div class="pubv"><b>Manuscript</b>, 2026</div>
       <div class="pubd">一句话贡献示例：提出统一的潜在主题模型，在多切片场景下同时完成细胞类型解卷积与空间域发现，并提升跨切片一致性。</div>
       <div class="publinks">
-        <a href="/assets/papers/FUSION.pdf">PDF</a>
       </div>
     </div>
   </div>
