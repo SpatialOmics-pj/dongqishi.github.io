@@ -161,7 +161,7 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 <hr/>
 
 <h2 id="publications">Publications</h2>
-<p class="sectionlead">参考 <a href="https://bingding.github.io/publications/" target="_blank" rel="noopener">bingding.github.io/publications</a> 的卡片式展示。给每篇论文加一个缩略图与一句话贡献说明：把图片放到 <code>assets/img/pubs/</code>，文件名与下面一致即可。</p>
+
 
 <div class="pubgroup">
   <h3>2026</h3>
