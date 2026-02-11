@@ -1,3 +1,4 @@
 title: "董其实 | Qishi Dong"
-theme: jekyll-theme-minimal
+description: "Statistics · Biostatistics · Spatial Omics · Medical AI"
 markdown: kramdown
+theme: jekyll-theme-cayman
