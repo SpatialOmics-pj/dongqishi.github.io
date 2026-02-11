@@ -228,7 +228,7 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 
 </div>
 
-
+<!-- ===================== ABOUT ===================== -->
 <h2 id="about">About</h2>
 <p class="sectionlead">
 我于 2023 年获香港浸会大学统计学博士学位，现为深圳技术大学大数据与互联网学院助理教授。
@@ -237,6 +237,7 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 
 <hr/>
 
+<!-- ===================== RESEARCH ===================== -->
 <h2 id="research">Research</h2>
 <ul>
   <li><b>空间组学（Spatial omics）</b>：多切片/多平台空间转录组整合、细胞类型解卷积、空间域识别与对齐</li>
@@ -247,10 +248,11 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 
 <hr/>
 
+<!-- ===================== PUBLICATIONS ===================== -->
 <h2 id="publications">Publications</h2>
 
-
 <div class="pubgroup">
+
   <h3>2026</h3>
 
   <div class="pubitem">
@@ -328,19 +330,23 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
       </div>
     </div>
   </div>
+
 </div>
 
 <hr/>
 
+<!-- ===================== PATENTS ===================== -->
 <h2 id="patents">Patents</h2>
 <ul>
-  <li><b>发明专利申请（已受理）</b>：申请号 <b>202511359756.X</b>，
-      “一种联合解卷积域识别与对齐的方法、系统、终端及介质”（发文日：2025-09-23）。
+  <li>
+    <b>发明专利申请（已受理）</b>：申请号 <b>202511359756.X</b>，
+    “一种联合解卷积域识别与对齐的方法、系统、终端及介质”（发文日：2025-09-23）。
   </li>
 </ul>
 
 <hr/>
 
+<!-- ===================== INDUSTRY ===================== -->
 <h2 id="industry">Industry Collaboration</h2>
 <ul>
   <li><b>森沛科技（深圳）有限公司 × 深圳技术大学</b>：智能穿戴端 PPG 信号的可校准预测算法优化（2026.02–2026.12）。</li>
@@ -348,11 +354,10 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 
 <hr/>
 
+<!-- ===================== CONTACT ===================== -->
 <h2 id="contact">Contact</h2>
 <ul>
   <li>Email: <a href="mailto:dongqishi@sztu.edu.cn">dongqishi@sztu.edu.cn</a></li>
   <li>ORCID: <a href="https://orcid.org/0009-0005-6994-598X" target="_blank" rel="noopener">0009-0005-6994-598X</a></li>
   <li>GitHub: <a href="https://github.com/SpatialOmics-pj/dongqishi" target="_blank" rel="noopener">SpatialOmics-pj/dongqishi</a></li>
 </ul>
-
-
