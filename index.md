@@ -135,14 +135,6 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
     </div>
   </div>
 
-  <div class="kv">
-    <div class="k">地址</div><div class="v">深圳，中国</div>
-    <div class="k">研究主题</div>
-    <div class="v">空间组学整合、细胞类型解卷积与域识别、可信推断、无创生理信号建模</div>
-    <div class="k">合作</div>
-    <div class="v">欢迎学术与产业合作（算法研发、数据分析、产品落地）</div>
-  </div>
-</div>
 
 <h2 id="about">About</h2>
 <p class="sectionlead">
