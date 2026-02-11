@@ -36,6 +36,64 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
   .hero{ grid-template-columns: 1fr; }
 }
 
+  /* ===== stable hero grid (fix layout chaos) ===== */
+.hero{
+  display:grid;
+  grid-template-columns: 180px minmax(0, 1.2fr) minmax(0, .9fr);
+  gap:16px;
+  padding:18px;
+  border:1px solid var(--bd);
+  border-radius:18px;
+  background:var(--card);
+  align-items:stretch;
+}
+.hero > *{ min-width:0; }
+
+/* mid / right safety */
+.mid, .right{ min-width:0; }
+.right, .right *{ overflow-wrap:anywhere; word-break:break-word; }
+
+/* responsive: move right panel down on medium screens */
+@media (max-width: 1100px){
+  .hero{ grid-template-columns: 180px 1fr; }
+  .hero .right{ grid-column: 1 / -1; }
+}
+@media (max-width: 720px){
+  .hero{ grid-template-columns: 1fr; }
+}
+
+/* compact info cards (version 1) */
+.info-cards.compact{
+  margin-top:0;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+.info-cards.compact .icard{
+  padding:12px 14px;
+  background:#fff;
+  border:1px solid var(--bd);
+  border-radius:14px;
+}
+.info-cards.compact .icard-h{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+}
+.info-cards.compact .ico{
+  width:26px;
+  flex:0 0 26px;
+  margin-top:1px;
+}
+.info-cards.compact .icard-line{
+  line-height:1.55;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+
+/* optional: unify headings */
+h2{ color:var(--fg) !important; font-weight:800; }
+
 .avatar{
   width:160px; height:160px; border-radius:18px; object-fit:cover;
   border:1px solid var(--bd); background:#fff;
