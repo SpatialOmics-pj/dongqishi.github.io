@@ -148,8 +148,37 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
     </div>
   </div>
 
-<!-- Right: cards --> <div class="right"> <div class="info-cards"> <div class="icard"> <div class="icard-h"><span class="ico">📍</span><span class="ttl">地址</span></div> <div class="icard-b">深圳，中国</div> </div> <div class="icard"> <div class="icard-h"><span class="ico">🔬</span><span class="ttl">研究主题</span></div> <div class="icard-b"> 空间组学跨切片整合、细胞类型解卷积与空间域识别、可校准可信推断、 以及无创生理信号（PPG/ECG）建模与个体化校准。 </div> </div> <div class="icard"> <div class="icard-h"><span class="ico">🤝</span><span class="ttl">合作</span></div> <div class="icard-b">欢迎学术与产业合作（算法研发、数据分析、产品落地）。</div> <div class="icard-actions"> <a class="mini-btn" href="mailto:dongqishi@sztu.edu.cn?subject=Collaboration%20Inquiry">合作邮件</a> <a class="mini-btn" href="https://orcid.org/0009-0005-6994-598X" target="_blank" rel="noopener">ORCID</a> </div> </div> </div> </div> </div>
+<!-- Right: cards -->
+<div class="right">
+  <div class="info-cards compact">
+    <div class="icard">
+      <div class="icard-h">
+        <span class="ico">📍</span>
+        <span class="icard-line">中国 · 深圳</span>
+      </div>
+    </div>
 
+    <div class="icard">
+      <div class="icard-h">
+        <span class="ico">🔬</span>
+        <span class="icard-line">
+          空间组学跨切片整合 · 细胞类型解卷积与空间域识别 · 可校准可信推断 · 无创生理信号（PPG/ECG）建模与个体化校准
+        </span>
+      </div>
+    </div>
+
+    <div class="icard">
+      <div class="icard-h">
+        <span class="ico">🤝</span>
+        <span class="icard-line">欢迎学术与产业合作（算法研发、数据分析、产品落地）</span>
+      </div>
+      <div class="icard-actions">
+        <a class="mini-btn" href="mailto:dongqishi@sztu.edu.cn?subject=Collaboration%20Inquiry">合作邮件</a>
+        <a class="mini-btn" href="https://orcid.org/0009-0005-6994-598X" target="_blank" rel="noopener">ORCID</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
