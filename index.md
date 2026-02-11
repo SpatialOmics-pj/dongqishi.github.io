@@ -108,22 +108,20 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
   <div>
     <div class="h1">董其实 <span class="small">| Qishi Dong</span></div>
     <div class="subtitle">深圳技术大学 · 大数据与互联网学院 · 助理教授</div>
-    <div class="meta">统计学习 / 生物统计 / 空间组学 / 医疗健康数据建模</div>
+    <div class="meta">统计学习 / 生物统计 / 概率模型 / 深度学习</div>
 
     <div class="btns">
       <a class="btn" href="mailto:dongqishi@sztu.edu.cn">Email</a>
       <a class="btn" href="https://orcid.org/0009-0005-6994-598X" target="_blank" rel="noopener">ORCID</a>
       <a class="btn" href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
       <a class="btn" href="https://github.com/SpatialOmics-pj/dongqishi" target="_blank" rel="noopener">GitHub</a>
-      <a class="btn" href="/assets/files/CV.pdf">CV</a>
     </div>
 
     <div class="tags">
-      <span class="tag">Spatial transcriptomics</span>
-      <span class="tag">Bayesian / Variational inference</span>
-      <span class="tag">Deep probabilistic models</span>
-      <span class="tag">Fine-mapping</span>
-      <span class="tag">Wearable sensing</span>
+    <span class="tag">AI for Life Science</span>
+      <span class="tag">Spatial Omics Data Analysis</span>
+      <span class="tag">Approximate Bayesian inference</span>
+      <span class="tag">Deep Learning</span>
     </div>
 
     <div class="note">
@@ -132,19 +130,10 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
     </div>
   </div>
 
-  <div class="kv">
-    <div class="k">地址</div><div class="v">深圳，中国</div>
-    <div class="k">研究主题</div>
-    <div class="v">空间组学整合、细胞类型解卷积与域识别、可信推断、无创生理信号建模</div>
-    <div class="k">合作</div>
-    <div class="v">欢迎学术与产业合作（算法研发、数据分析、产品落地）</div>
-  </div>
-</div>
-
 <h2 id="about">About</h2>
 <p class="sectionlead">
 我于 2023 年获香港浸会大学统计学博士学位，现为深圳技术大学大数据与互联网学院助理教授。
-研究聚焦统计学习、生物统计与医疗健康数据分析，曾在华为诺亚方舟实验室、香港中文大学（深圳）与香港大学从事科研工作。
+研究聚焦统计学习、生物统计与医疗健康数据分析，曾在华为诺亚方舟实验室、香港大学与香港中文大学（深圳）从事科研工作。
 </p>
 
 <hr/>
