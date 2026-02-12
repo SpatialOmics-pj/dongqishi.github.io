@@ -339,13 +339,48 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 <hr/>
 
 <!-- ===================== RESEARCH ===================== -->
-<h2 id="research">Research</h2>
-<ul>
-  <li><b>贝叶斯统计推断（Bayesian & VI）</b></li>
-  <li><b>空间组学分析（Spatial omics）</b></li>
-  <li><b>深度学习（Deep Learning）</b></li>
-  <li><b>可穿戴与医疗器械算法</b></li>
-</ul>
+<h2 id="projects">RESEARCH</h2>
+<p class="sectionlead">
+当前在研方向包括：
+</p>
+
+<div class="pubgroup">
+  <!-- Project 1 -->
+  <div class="pubitem">
+    <div>
+      <div class="pubtitle">空间单细胞映射（Spatial single-cell mapping）算法工具链</div>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="pubitem">
+    <div>
+      <div class="pubtitle">空间组学智能体（Spatial omics agent）与自动化QC与注释</div>
+      
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="pubitem">
+    <div>
+      <div class="pubtitle">与森沛科技（深圳）有限公司，完成从数据分析到算法开发、再到产品化评测流程的闭环落地。</div>
+    </div>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="pubitem">
+    <div>
+      <div class="pubtitle">与解放军总医院（301 医院）完成空间多组学数据分析与临床转化</div>
+    </div>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="pubitem">
+    <div>
+      <div class="pubtitle">与四川大学合作开发空间多组学解卷积算法</div>
+    </div>
+  </div>
+</div>
 
 <hr/>
 
