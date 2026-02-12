@@ -141,6 +141,111 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 }
 .mini-btn:hover{ text-decoration:none; border-color:#cbd5e1; }
 
+/* ===== Publications (v2) ===== */
+.pubgroup{
+  margin-top: 10px;
+}
+
+/* year header */
+.pubgroup h3{
+  margin: 26px 0 12px;
+  font-size: 1.35rem;
+  font-weight: 900;
+  color: var(--fg);
+  letter-spacing: .2px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.pubgroup h3::after{
+  content:"";
+  height: 1px;
+  flex: 1;
+  background: var(--bd);
+  opacity: .9;
+}
+
+/* item card */
+.pubitem{
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 14px;
+  padding: 14px;
+  border: 1px solid var(--bd);
+  border-radius: 16px;
+  background: #fff;
+  margin: 12px 0;
+  transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.pubitem:hover{
+  transform: translateY(-1px);
+  border-color: #cbd5e1;
+  box-shadow: 0 10px 24px rgba(15,23,42,.06);
+}
+.pubimg img{
+  width: 160px;
+  height: 110px;
+  object-fit: cover;
+  border: 1px solid var(--bd);
+  border-radius: 12px;
+  background: #fff;
+}
+
+/* text */
+.pubtitle{
+  font-weight: 900;
+  margin: 0 0 6px;
+  color: var(--fg);
+  line-height: 1.25;
+  font-size: 1.05rem;
+}
+.puba{
+  color: var(--muted);
+  font-size: .95rem;
+  margin: 0 0 6px;
+  line-height: 1.45;
+}
+.pubv{
+  color: #334155;
+  font-size: .96rem;
+  margin: 0;
+  line-height: 1.45;
+}
+.pubv b{ font-weight: 900; }
+
+/* links -> pill buttons */
+.publinks{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.publinks a{
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--bd);
+  background: #fff;
+  color: var(--fg);
+  font-size: .92rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+.publinks a:hover{
+  border-color: #cbd5e1;
+}
+
+/* mobile */
+@media (max-width: 820px){
+  .pubitem{
+    grid-template-columns: 1fr;
+  }
+  .pubimg img{
+    width: 100%;
+    height: 180px;
+  }
+}
+
 </style>
 
 <!-- ===================== HERO ===================== -->
