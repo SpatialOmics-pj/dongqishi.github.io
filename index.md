@@ -182,15 +182,13 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
     </div>
 
     <div class="tags">
-      <span class="tag">Spatial transcriptomics</span>
       <span class="tag">Bayesian inference</span>
-      <span class="tag">Variational inference</span>
-      <span class="tag">Deep probabilistic models</span>
-      <span class="tag">Fine-mapping</span>
+      <span class="tag">Statistical modeling</span>
+      <span class="tag">Spatial omics data analysis</span>
     </div>
 
     <div class="note">
-      课题组氛围融洽，结构合理，包含多位博士、硕士和本科生，且有稳定产出，欢迎对 <b>数据建模、生物统计、深度学习</b> 与 <b>可穿戴算法落地</b> 感兴趣的同学报考联系：
+      课题组氛围融洽,结构合理，包含多位博士、硕士和本科生，且有稳定产出，欢迎对 <b>数据建模、生物统计、深度学习</b> 与 <b>可穿戴算法落地</b> 感兴趣的同学报考联系：
       <a href="mailto:dongqishi@sztu.edu.cn">dongqishi@sztu.edu.cn</a>
     </div>
   </div>
