@@ -358,7 +358,7 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 
   <div class="pubitem">
     <div class="pubimg">
-      <img src="/assets/img/pubs/fusion.png" alt="FUSION" onerror="this.style.display='none'">
+      <img src="assets/img/pubs/fusion.png" alt="FUSION" onerror="this.style.display='none'">
     </div>
     <div>
       <div class="pubtitle">Composition-Aware Cross-Sectional Integration for Spatial Transcriptomics</div>
@@ -372,7 +372,7 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 
   <div class="pubitem">
     <div class="pubimg">
-      <img src="/assets/img/pubs/empbvs.png" alt="EmpBVS" onerror="this.style.display='none'">
+      <img src="assets/img/pubs/empbvs.png" alt="EmpBVS" onerror="this.style.display='none'">
     </div>
     <div>
       <div class="pubtitle">An Empirical Bayes Algorithm for Variable Selection With Applications in Genetic Fine-Mapping</div>
@@ -388,7 +388,7 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 
   <div class="pubitem">
     <div class="pubimg">
-      <img src="/assets/img/pubs/qrside.png" alt="QR-SIDE" onerror="this.style.display='none'">
+      <img src="assets/img/pubs/qrside.png" alt="QR-SIDE" onerror="this.style.display='none'">
     </div>
     <div>
       <div class="pubtitle">Robust Spatial Cell-Type Deconvolution with Qualitative Reference for Spatial Transcriptomics</div>
@@ -404,7 +404,7 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 
   <div class="pubitem">
     <div class="pubimg">
-      <img src="/assets/img/pubs/damix.png" alt="DAMix" onerror="this.style.display='none'">
+      <img src="assets/img/pubs/damix.png" alt="DAMix" onerror="this.style.display='none'">
     </div>
     <div>
       <div class="pubtitle">DAMix: Exploiting Deep Autoregressive Model Zoo for Improving Lossless Compression Generalization</div>
@@ -420,7 +420,7 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 
   <div class="pubitem">
     <div class="pubimg">
-      <img src="/assets/img/pubs/zood.png" alt="ZooD" onerror="this.style.display='none'">
+      <img src="assets/img/pubs/zood.png" alt="ZooD" onerror="this.style.display='none'">
     </div>
     <div>
       <div class="pubtitle">ZooD: Exploiting Model Zoo for Out-of-Distribution Generalization</div>
