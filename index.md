@@ -198,8 +198,6 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
         <div class="stext">
           欢迎与我交流想法与合作
           <div class="sactions">
-            <a class="mini-btn" href="mailto:dongqishi@sztu.edu.cn?subject=Collaboration%20Inquiry">合作邮件</a>
-            <a class="mini-btn" href="https://orcid.org/0009-0005-6994-598X" target="_blank" rel="noopener">ORCID</a>
           </div>
         </div>
       </div>
