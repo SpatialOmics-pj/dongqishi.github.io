@@ -246,6 +246,54 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
   }
 }
 
+/* ===== Projects / Research Cards (compact) ===== */
+.projwrap{ margin-top: 14px; }
+.projlist{ display: grid; gap: 12px; }
+
+.projcard{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  padding: 14px 16px;
+  background:#fff;
+  border:1px solid var(--bd);
+  border-radius:16px;
+}
+
+.picon{
+  width:40px; height:40px;
+  flex:0 0 40px;
+  border-radius:12px;
+  display:grid;
+  place-items:center;
+  background: var(--tag);
+  border:1px solid var(--tagbd);
+  font-size:20px;
+}
+
+.pbody{ min-width:0; }
+
+.ptitle{
+  margin:0;
+  color: var(--fg);
+  font-weight:900;
+  font-size:1.02rem;
+  line-height:1.35;
+}
+
+.ptitle .en{
+  font-weight:700;
+  color: var(--muted);
+  font-size:.92rem;
+  margin-left:6px;
+  white-space:nowrap;
+}
+
+@media (max-width: 720px){
+  .projcard{ padding: 12px 14px; }
+  .ptitle .en{ display:block; margin-left:0; margin-top:2px; white-space:normal; }
+}
+
 </style>
 
 <!-- ===================== HERO ===================== -->
@@ -338,51 +386,53 @@ hr{ border:none; border-top:1px solid var(--bd); margin:1.5rem 0; }
 
 <hr/>
 
-<!-- ===================== RESEARCH ===================== -->
+<!-- ===================== RESEARCH / PROJECTS ===================== -->
 <h2 id="projects">RESEARCH</h2>
-<p class="sectionlead">
-当前在研方向包括：
-</p>
+<p class="sectionlead">当前在研方向包括：</p>
 
-<div class="pubgroup">
-  <!-- Project 1 -->
-  <div class="pubitem">
-    <div>
-      <div class="pubtitle">空间单细胞映射（Spatial single-cell mapping）算法工具链</div>
-    </div>
-  </div>
+<div class="projwrap">
+  <div class="projlist">
 
-  <!-- Project 2 -->
-  <div class="pubitem">
-    <div>
-      <div class="pubtitle">空间组学智能体（Spatial omics agent）与自动化QC与注释</div>
-      
+    <div class="projcard">
+      <div class="picon">🧭</div>
+      <div class="pbody">
+        <div class="ptitle">空间单细胞映射算法工具链 <span class="en">(Spatial single-cell mapping)</span></div>
+      </div>
     </div>
-  </div>
 
-  <!-- Project 3 -->
-  <div class="pubitem">
-    <div>
-      <div class="pubtitle">与森沛科技（深圳）有限公司，完成从数据分析到算法开发、再到产品化评测流程的闭环落地。</div>
+    <div class="projcard">
+      <div class="picon">🤖</div>
+      <div class="pbody">
+        <div class="ptitle">空间组学智能体与自动化 QC/注释 <span class="en">(Spatial omics agent)</span></div>
+      </div>
     </div>
-  </div>
 
-  <!-- Project 4 -->
-  <div class="pubitem">
-    <div>
-      <div class="pubtitle">与解放军总医院（301 医院）完成空间多组学数据分析与临床转化</div>
+    <div class="projcard">
+      <div class="picon">⌚</div>
+      <div class="pbody">
+        <div class="ptitle">产学合作：森沛科技（深圳）有限公司（PPG/ECG 血压预测算法与产品落地）</div>
+      </div>
     </div>
-  </div>
 
-  <!-- Project 5 -->
-  <div class="pubitem">
-    <div>
-      <div class="pubtitle">与四川大学合作开发空间多组学解卷积算法</div>
+    <div class="projcard">
+      <div class="picon">🏥</div>
+      <div class="pbody">
+        <div class="ptitle">医院合作：解放军总医院（301 医院）空间多组学数据分析</div>
+      </div>
     </div>
+
+    <div class="projcard">
+      <div class="picon">🤝</div>
+      <div class="pbody">
+        <div class="ptitle">高校合作：四川大学空间解卷积算法开发</div>
+      </div>
+    </div>
+
   </div>
 </div>
 
 <hr/>
+
 
 <!-- ===================== PUBLICATIONS ===================== -->
 <h2 id="publications">Publications</h2>
